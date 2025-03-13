@@ -6,8 +6,9 @@ public class MainFaktorial09 {
         int nilai = input.nextInt();
 
         Faktorial09 fk = new Faktorial09();
-        System.out.println("Nilai faktorial " + nilai + " menggunakan BF: " + fk.faktorialBF(nilai));
+        System.out.println("Nilai faktorial " + nilai + " menggunakan BF FOR: " + fk.faktorialBF(nilai));
         System.out.println("Nilai faktorial " + nilai + " menggunakan DC: " + fk.faktorialDC(nilai));
+        System.out.println("Nilai faktorial " + nilai + " menggunakan BF WHILE: " + fk.faktorialBFWhile(nilai));
         
     }
     
